@@ -1,0 +1,47 @@
+
+
+.container-BarraLateral{
+    width: 238px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: var(--cinza-escuro);
+    position: fixed;
+    top: 0;
+}
+
+.BarraLateral{
+    height: 100vh;
+    width: fit-content;
+    margin-top: 0;
+    padding-left: 17px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+
+.BarraLateral img{
+    width: 110px;
+    padding-top: 20px;
+}
+
+.BarraLateral li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+
+.BarraLateral li:nth-last-child(-n+2){
+    margin-top: auto;
+}
+
+.BarraLateral li:last-child{
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.BarraLateral ion-icon{
+    font-size: 28px;
+}

@@ -1,0 +1,7 @@
+.main{
+    width: calc(100vw - 239px);
+    margin-left: 239px;
+    display: flex;
+    justify-content: center;
+    /**COLOCAR JUSTIFY CONTENT CENTER AQUI**/
+}

@@ -1,5 +1,6 @@
 import './Barra-lateral.css';
 import logo from '../Instagram-Logo.png';
+import Pesquisa from './pesquisa/pesquisa';
 
 function BarraLateral() {
     return(
@@ -10,10 +11,7 @@ function BarraLateral() {
                     <ion-icon name="home"></ion-icon>
                     <span>Página inicial</span>
                 </li>
-                <li>
-                    <ion-icon name="search-outline"></ion-icon>
-                    <span>Pesquisa</span>
-                </li>
+                <Pesquisa />
                 <li>
                     <ion-icon name="compass-outline"></ion-icon>
                     <span>Explorar</span>

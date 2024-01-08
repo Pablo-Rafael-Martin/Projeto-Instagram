@@ -1,7 +1,7 @@
 
 
 .container-BarraLateral{
-    width: 238px;
+    width: 246px;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: var(--cinza-escuro);
@@ -11,10 +11,12 @@
 
 .BarraLateral{
     height: 100vh;
-    width: fit-content;
+    width: 215px;
     margin-top: 0;
-    padding-left: 17px;
     list-style: none;
+    padding: 0;
+    position: relative;
+    left: 20px;
     display: flex;
     flex-direction: column;
     gap: 28px;

@@ -11,7 +11,10 @@ function BarraLateral() {
                     <ion-icon name="home"></ion-icon>
                     <span>Página inicial</span>
                 </li>
-                <Pesquisa />
+                <li>
+                    <ion-icon name="search-outline"></ion-icon>
+                    <span>Pesquisa</span>
+                </li>
                 <li>
                     <ion-icon name="compass-outline"></ion-icon>
                     <span>Explorar</span>

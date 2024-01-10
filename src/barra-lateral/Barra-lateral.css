@@ -1,5 +1,4 @@
 
-
 .container-BarraLateral{
     width: 246px;
     border-right-style: solid;
@@ -19,7 +18,7 @@
     left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 10px;
     
 }
 
@@ -32,8 +31,28 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 13px;
 }
+
+.BarraLateral button{
+    width: 215px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'roboto';
+    color: aliceblue;
+    background-color: black;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.BarraLateral button:hover{
+    background-color: var(--menu-hover);
+
+}
+
 
 .BarraLateral li:nth-last-child(-n+2){
     margin-top: auto;

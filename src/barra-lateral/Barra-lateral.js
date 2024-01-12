@@ -1,73 +1,42 @@
 import './Barra-lateral.css';
 import logo from '../Instagram-Logo.png';
+import Button from './button';
+
 
 function BarraLateral() {
+    const props = [
+        { name: 'home', span: 'Página inicial' },
+        { name: 'search-outline', span: 'Pesquisa' },
+        { name: 'compass-outline', span: 'Explorar' },
+        { name: 'film-outline', span: 'Reels' },
+        { name: 'paper-plane-outline', span: 'Mensagens' },
+        { name: 'heart-outline', span: 'Notificações' },
+        { name: 'add-circle-outline', span: 'Criar' },
+        { name: 'person-circle-outline', span: 'Perfil' },
+        { name: 'at-outline', span: 'Threads' },
+        { name: 'reorder-three-outline', span: 'Mais' },
+    ];
+
+    const botoes = [
+        <Button name='' span='Página inicial'/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>,
+        <Button name='' span=''/>
+    ];
+
     return(
         <div class='container-BarraLateral'>
             <ul class='BarraLateral'>
                 <img src={logo} />
-                <li>
-                    <button>
-                        <ion-icon name="home"></ion-icon>
-                        <span>Página inicial</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="search-outline"></ion-icon>
-                        <span>Pesquisa</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="compass-outline"></ion-icon>
-                        <span>Explorar</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="film-outline"></ion-icon>
-                        <span>Reels</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
-                        <span>Mensagens</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <span>Notificações</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="add-circle-outline"></ion-icon>
-                        <span>Criar</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="person-circle-outline"></ion-icon>
-                        <span>Perfil</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="at-outline"></ion-icon>
-                        <span>Threads</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <ion-icon name="reorder-three-outline"></ion-icon>
-                        <span>Mais</span>
-                    </button>
-                </li>
+                {props.map((botoes) => <Button name={botoes.name} span={botoes.span} />)}
             </ul>
-        </div>
+        </div> 
     )
 }
 

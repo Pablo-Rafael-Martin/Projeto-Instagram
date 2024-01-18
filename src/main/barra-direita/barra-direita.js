@@ -13,12 +13,12 @@ function BarraDireita() {
                 <span class="texto-top">plabomartin</span>
                 <span class="texto-bottom">Pablo Rafael</span>
             </div>
-            <span class="botao-mudar">Mudar</span>
+            <button class="botao-mudar">Mudar</button>
         </div>
 
         <div id="sugestoes-para-voce" class="sugestoes">
             <span class="sugestoes-para-voce">Sugestões para você</span>
-            <span class="botao-mudar">Ver tudo</span>
+            <button class="botao-ver-tudo">Ver tudo</button>
         </div>
 
         <div id="container-sugestoes">

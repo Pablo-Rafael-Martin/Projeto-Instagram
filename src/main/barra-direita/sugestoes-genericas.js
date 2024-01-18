@@ -6,7 +6,7 @@ function SugestaoGenerica(props) {
                 <span class="texto-top">{props.recomendação}</span>
                 <span class="texto-bottom">{props.seSegue}</span>
             </div>
-            <span class="botao-mudar">Seguir</span>
+            <button class="botao-seguir">Seguir</button>
         </div>
     );
 }

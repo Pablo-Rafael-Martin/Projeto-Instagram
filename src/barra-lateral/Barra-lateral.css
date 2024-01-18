@@ -18,13 +18,14 @@
     left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 9px;
     
 }
 
 .BarraLateral img{
     width: 110px;
     padding-top: 20px;
+    margin-bottom: 12px;
 }
 
 .BarraLateral li{
@@ -35,7 +36,7 @@
 
 .BarraLateral button{
     width: 215px;
-    height: 48px;
+    height: 47px;
     display: flex;
     flex-direction: row;
     gap: 13px;
@@ -46,11 +47,12 @@
     background-color: black;
     border-radius: 8px;
     border-width: 0;
+    transition: background-color 0s;
 }
 
 .BarraLateral button:hover{
     background-color: var(--menu-hover);
-
+    transition: background-color 130ms linear;
 }
 
 

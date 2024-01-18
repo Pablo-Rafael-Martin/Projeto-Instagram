@@ -1,12 +1,13 @@
+/*Geral*/
 #menu-direito{
     margin-top: 30px;
     margin-left: 80px;
     width: 300px;
 }
 
+/*Sugestões da UL*/
 .sugestoes{
     width: 287px;
-    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,6 +15,13 @@
 .sugestoes > ion-icon{
     font-size: 52px;
 }
+#container-sugestoes{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+/*Estrutura da sugestão*/
 .container-texto-top-texto-bottom{
     width: 183px;
     display: flex;
@@ -27,20 +35,18 @@
     color: var(--branco-pesado);
     padding-bottom: 3px;
 }
+#container-sugestoes .texto-bottom{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-medio);
+}
 #menu-direito-perfil-atual .texto-bottom{
     font-size: 14px;
     font-weight: 300;
     color: var(--cinza-medio);
 }
-
-.botao-mudar, .botao-seguir{
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--azul-escuro);
-}
-
 #sugestoes-para-voce{
-    padding-top: 18px;
+    padding-top: 20px;
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
@@ -50,17 +56,31 @@
     font-weight: 500;
     color: var(--cinza-medio);
 }
-#sugestoes-para-voce .botao-mudar{
+
+
+
+
+/*Botões*/
+
+#menu-direito button{   
+    border: none;
+    background: none;
+}
+
+.botao-mudar, .botao-seguir{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.botao-ver-tudo{
     color: var(--branco-pesado);
 }
 
-.container-sugestoes{
-    display: flex;
-    flex-direction: column;
+.botao-mudar:hover, .botao-seguir:hover{
+    color: var(--branco-pesado);
 }
 
-#container-sugestoes .texto-bottom{
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--cinza-medio);
+.botao-ver-tudo:hover {
+    color: var(--comment-color);
 }

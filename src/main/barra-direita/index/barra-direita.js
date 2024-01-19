@@ -1,5 +1,5 @@
 import './barra-direita.css';
-import SugestaoGenerica from './sugestoes-genericas';
+import SugestaoGenerica from '../sugestoes-genericas/sugestoes-genericas';
 
 const recomendação = ["mithrandir", "curunir", "Aiwendil", "Alatar", "pallando"];
 const seSegue = "Segue você";
@@ -7,14 +7,7 @@ const seSegue = "Segue você";
 function BarraDireita() {
     return (
     <div id="menu-direito">                     
-        <div id="menu-direito-perfil-atual" class="sugestoes">
-            <ion-icon name="person-circle-outline"></ion-icon>
-            <div class="container-texto-top-texto-bottom">
-                <span class="texto-top">plabomartin</span>
-                <span class="texto-bottom">Pablo Rafael</span>
-            </div>
-            <button class="botao-mudar">Mudar</button>
-        </div>
+        <SugestaoGenerica tipo = "1" />
 
         <div id="sugestoes-para-voce" class="sugestoes">
             <span class="sugestoes-para-voce">Sugestões para você</span>

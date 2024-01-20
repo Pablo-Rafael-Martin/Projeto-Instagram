@@ -1,10 +1,18 @@
 import './barra-direita.css';
 import SugestaoGenerica from '../sugestoes-genericas/sugestoes-genericas';
 
-const recomendação = ["mithrandir", "curunir", "Aiwendil", "Alatar", "pallando"];
-const seSegue = "Segue você";
+const recomendação = ["mithrandir", "curunir", "Aiwendil", "Alatar", "pallando"]; 
+
 
 function BarraDireita() {
+    const sugestao = [
+        {nome: "mitrandir", seSegue: "Segue você"},
+        {nome: "curunir", seSegue: "Segue você"},
+        {nome: "Aiwendil", seSegue: "Segue você"},
+        {nome: "Alatar", seSegue: "Segue você"},
+        {nome: "pallando", seSegue: "Segue você"}
+    ]
+
     return (
     <div id="menu-direito">                     
         <SugestaoGenerica tipo = "1" />
@@ -15,11 +23,7 @@ function BarraDireita() {
         </div>
 
         <div id="container-sugestoes">
-            <SugestaoGenerica recomendação = {recomendação[0]} seSegue = {seSegue} />
-            <SugestaoGenerica recomendação = {recomendação[1]} seSegue = {seSegue} />
-            <SugestaoGenerica recomendação = {recomendação[2]} seSegue = {seSegue} />
-            <SugestaoGenerica recomendação = {recomendação[3]} seSegue = {seSegue} />
-            <SugestaoGenerica recomendação = {recomendação[4]} seSegue = {seSegue} />
+            {sugestao.map(x => <SugestaoGenerica recomendação={x.nome} seSegue={x.seSegue} />)}
         </div>
     </div>
     );

@@ -17,19 +17,6 @@ function BarraLateral() {
         { name: 'reorder-three-outline', span: 'Mais' },
     ];
 
-    const botoes = [
-        <Button name='' span='Página inicial'/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>,
-        <Button name='' span=''/>
-    ];
-
     return(
         <div class='container-BarraLateral'>
             <ul class='BarraLateral'>

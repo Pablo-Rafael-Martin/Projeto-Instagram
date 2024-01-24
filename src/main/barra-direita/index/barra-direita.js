@@ -1,8 +1,6 @@
 import './barra-direita.css';
+import '../sugestoes-genericas/sugestoes-genericas.css';
 import SugestaoGenerica from '../sugestoes-genericas/sugestoes-genericas';
-
-const recomendação = ["mithrandir", "curunir", "Aiwendil", "Alatar", "pallando"]; 
-
 
 function BarraDireita() {
     const sugestao = [

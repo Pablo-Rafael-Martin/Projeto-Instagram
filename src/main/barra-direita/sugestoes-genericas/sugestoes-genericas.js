@@ -4,7 +4,7 @@ function SugestaoGenerica(props) {
         <div id="menu-direito-perfil-atual" class="sugestoes">
             <ion-icon name="person-circle-outline"></ion-icon>
             <div class="container-texto-top-texto-bottom">
-                <span class="texto-top">plabomartin</span>
+                <a href=""><span class="texto-top">plabomartin</span></a>
                 <span class="texto-bottom">Pablo Rafael</span>
             </div>
             <button class="botao-mudar">Mudar</button>
@@ -14,7 +14,7 @@ function SugestaoGenerica(props) {
         <div class="sugestoes">
             <ion-icon name="person-circle-outline"></ion-icon>  
             <div class="container-texto-top-texto-bottom">
-                <span class="texto-top">{props.recomendação}</span>
+                <a href=""><span class="texto-top">{props.recomendação}</span></a>
                 <span class="texto-bottom">{props.seSegue}</span>
             </div>
             <button class="botao-seguir">Seguir</button>

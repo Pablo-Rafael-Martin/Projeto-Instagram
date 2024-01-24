@@ -1,3 +1,4 @@
+import "./storyGenerico.css";
 
 function StoryGenerico (props){
     return (

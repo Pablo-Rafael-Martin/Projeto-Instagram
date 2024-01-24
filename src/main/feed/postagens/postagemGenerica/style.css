@@ -1,0 +1,114 @@
+/*post-top*/
+.container-post-story .circular-landscape-container{
+    background-image: url("../../barra-de-stories/assets/stories_background.png");
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-post-story .circular-landscape{
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.container-post-story .story-img{
+    height: 32px;
+    margin-left: -40%;
+}
+
+.post-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 470px;
+    height: 44px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.container-esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-nome{
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-tempo{
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cinza-medio);
+}
+
+.icon-eho{
+    font-size: 20px;
+}
+
+
+/*post-imagem*/
+
+.post-img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/*post-bottom*/
+.container-post-bottom-barra-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.post-bottom-esquerdo ion-icon{
+    padding-right: 8px;
+    font-size: 28px;
+}
+.post-bottom-direito ion-icon{
+    font-size: 28px;
+}
+
+.pb-span{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.post-bottom-nome{
+    font-size: 14px;
+    font-weight: 500;
+}
+.legenda{
+    padding-left: 10px;
+}
+
+.comentarios{
+    color: var(--cinza-medio);
+}
+.comentario{
+    color: var(--branco-pesado) !important;
+    outline: none;
+}
+
+.comentario::placeholder{
+    color: var(--comment-color);
+}
+
+.container-barra-de-comentarios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-barra-de-comentarios ion-icon{
+    font-size: 16px;
+    padding-right: 6px;
+}

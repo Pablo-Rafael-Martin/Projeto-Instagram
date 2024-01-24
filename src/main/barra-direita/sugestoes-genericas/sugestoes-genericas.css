@@ -1,0 +1,71 @@
+/*Estrutura da sugestão*/
+.container-texto-top-texto-bottom{
+    width: 183px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+}
+.texto-top{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--branco-pesado);
+    padding-bottom: 3px;
+}
+#container-sugestoes .texto-bottom{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-medio);
+}
+#menu-direito-perfil-atual .texto-bottom{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cinza-medio);
+}
+#sugestoes-para-voce{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.sugestoes-para-voce{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cinza-medio);
+}
+.sugestoes > ion-icon{
+    font-size: 52px;
+}
+.sugestoes{
+    width: 287px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+/*Botões*/
+
+#menu-direito button{   
+    border: none;
+    background: none;
+}
+
+.botao-mudar, .botao-seguir{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.botao-ver-tudo{
+    color: var(--branco-pesado);
+}
+
+.botao-mudar:hover, .botao-seguir:hover{
+    color: var(--branco-pesado);
+}
+
+.botao-ver-tudo:hover {
+    color: var(--comment-color);
+}

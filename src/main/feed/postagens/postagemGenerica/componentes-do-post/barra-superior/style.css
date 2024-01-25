@@ -1,0 +1,53 @@
+/*post-top*/
+.container-post-story .circular-landscape-container{
+    background-image: url("../../../../barra-de-stories/assets/stories_background.png");
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-post-story .circular-landscape{
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.container-post-story .story-img{
+    height: 32px;
+    margin-left: -40%;
+}
+
+.post-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 470px;
+    height: 44px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.container-esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-nome{
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-tempo{
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cinza-medio);
+}
+
+.post-top ion-icon{ /*!NUNCA ALTERAR ESSE SELETOR OU O ÍCONE DESAPARECE*/
+    font-size: 20px;
+}

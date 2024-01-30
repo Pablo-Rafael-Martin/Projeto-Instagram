@@ -13,3 +13,9 @@
     color: var(--branco-pesado);
 }
 
+
+@media (max-width: 768px) {
+    #barra-stories{
+        margin-top: 59px;
+    }
+}

@@ -13,3 +13,10 @@
         margin-left: 70px;
     }
 }
+
+@media (max-width: 768px) {
+    .main {
+        width: 100vw;
+        margin-left: 0;
+    }
+}

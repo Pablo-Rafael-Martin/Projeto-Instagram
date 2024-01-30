@@ -3,6 +3,7 @@
     padding-bottom: 8px;
     width: 470px;
     border-bottom: 1px solid var(--cinza-escuro);
+    transform: translateX(-12px);
 }
 
 .postagens-container{

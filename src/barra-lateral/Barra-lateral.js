@@ -21,6 +21,7 @@ function BarraLateral() {
         <div class='container-BarraLateral'>
             <ul class='BarraLateral'>
                 <img src={logo} />
+                <ion-icon name="logo-instagram"></ion-icon>
                 {props.map((botoes) => <Button name={botoes.name} span={botoes.span} />)}
             </ul>
         </div> 

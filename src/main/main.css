@@ -3,5 +3,13 @@
     margin-left: 239px;
     display: flex;
     justify-content: center;
-    /**COLOCAR JUSTIFY CONTENT CENTER AQUI**/
+}
+
+
+
+@media (max-width: 1270px) {
+    .main {
+        width: calc(100vw - 70px);
+        margin-left: 70px;
+    }
 }

@@ -15,3 +15,10 @@
     flex-direction: column;
     gap: 9px;
 }
+
+
+@media (max-width: 1160px) {
+    #menu-direito{
+        display: none;
+    }
+}

@@ -1,5 +1,5 @@
 import './style.css';
-import logo from '../../../Instagram-Logo.png';
+import logo from '../Instagram-Logo.png';
 
 function BarraSuperior() {
     return (

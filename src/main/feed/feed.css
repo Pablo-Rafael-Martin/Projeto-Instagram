@@ -6,3 +6,10 @@
     align-items: center;
     transform: translateX(-5px);
 }
+
+@media (max-width: 768px) {
+    .feed{
+        margin-top: 59px;
+        overflow: hidden;
+    }
+}

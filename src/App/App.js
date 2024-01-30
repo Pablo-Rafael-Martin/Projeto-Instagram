@@ -1,5 +1,6 @@
 import './App.css';
 import BarraLateral from '../barra-lateral/Barra-lateral.js';
+import BarraSuperior from '../barra-superior/barra-superior.js'
 import Main from '../main/main.js';
 import { useState, useEffect } from 'react';
 
@@ -23,8 +24,9 @@ function App() {
 
   return (
     <div class="app">
-      {screenWidth > 768 ? <BarraLateral /> : null}
+      {screenWidth > 768 ? <BarraLateral /> : <BarraSuperior />}
       <Main />
+
     </div>
   );
 }

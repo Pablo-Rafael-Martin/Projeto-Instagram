@@ -10,6 +10,8 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--cinza-escuro) !important;
+    z-index: 9999;
+    background-color: black;
 }
 
 #BarraSuperior img{

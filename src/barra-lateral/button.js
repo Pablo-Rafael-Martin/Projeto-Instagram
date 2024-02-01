@@ -1,7 +1,7 @@
 
 function Button(props) {
     return(
-        <li>
+        <li className={props.name}>
             <button>
                 <ion-icon name={props.name}></ion-icon>
                 <span>{props.span}</span>

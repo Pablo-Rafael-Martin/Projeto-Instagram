@@ -12,7 +12,7 @@ function SugestaoGenerica(props) {
         );
     } else return (
         <div class="sugestoes">
-            <ion-icon name="person-circle-outline"></ion-icon>  
+            <div class="circular-landscape-containerr"><div class="circular-landscaper"><img class="sugestão-img" alt='' src={props.img} /></div></div>  
             <div class="container-texto-top-texto-bottom">
                 <a href=""><span class="texto-top">{props.recomendação}</span></a>
                 <span class="texto-bottom">{props.seSegue}</span>

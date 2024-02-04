@@ -1,14 +1,19 @@
 import './barra-direita.css';
 import '../sugestoes-genericas/sugestoes-genericas.css';
 import SugestaoGenerica from '../sugestoes-genericas/sugestoes-genericas';
+import mithrandir from '../../../imagens/mithrandir.jpg';
+import saruman from '../../../imagens/saruman.jpg';
+import alatar from '../../../imagens/alatar.jpg';
+import pallando from '../../../imagens/pallando.jpg';
+import radagast from '../../../imagens/radagast.jpg';
 
 function BarraDireita() {
     const sugestao = [
-        {nome: "mitrandir", seSegue: "Segue você"},
-        {nome: "curunir", seSegue: "Segue você"},
-        {nome: "Aiwendil", seSegue: "Segue você"},
-        {nome: "Alatar", seSegue: "Segue você"},
-        {nome: "pallando", seSegue: "Segue você"}
+        {nome: "mitrandir", seSegue: "Segue você", img: mithrandir},
+        {nome: "curunir", seSegue: "Segue você", img: saruman},
+        {nome: "Aiwendil", seSegue: "Segue você", img: radagast},
+        {nome: "Alatar", seSegue: "Segue você", img: alatar},
+        {nome: "pallando", seSegue: "Segue você", img: pallando}
     ]
 
     return (
@@ -21,7 +26,7 @@ function BarraDireita() {
         </div>
 
         <div id="container-sugestoes">
-            {sugestao.map(x => <SugestaoGenerica recomendação={x.nome} seSegue={x.seSegue} />)}
+            {sugestao.map(x => <SugestaoGenerica recomendação={x.nome} seSegue={x.seSegue} img={x.img} />)}
         </div>
     </div>
     );

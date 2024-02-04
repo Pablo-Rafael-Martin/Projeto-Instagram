@@ -43,6 +43,26 @@
     align-items: center;
 }
 
+.sugestoes .circular-landscaper{
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.sugestoes .circular-landscape-containerr{
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sugestão-img{
+    width: 62px;
+}
 
 
 /*Botões*/

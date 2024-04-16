@@ -1,1 +1,1 @@
-Comecei esse projeto pouco dempois de aprender HTML e CSS básicos. Fui desenvolvendo conforme fui aprendendo mais sobre front-end e descontinuei quando comecei a estudar back-end. No futuro pretendo retomar o desenvolvimento.
+Comecei esse projeto pouco depois de aprender HTML e CSS básicos. Fui desenvolvendo conforme fui aprendendo mais sobre front-end e refiz ele do zero em React assim que aprendi esse framework. Descontinuei quando comecei a estudar back-end, mas no futuro pretendo retomar o desenvolvimento.

@@ -1,0 +1,1 @@
+Comecei esse projeto pouco dempois de aprender HTML e CSS básicos. Fui desenvolvendo conforme fui aprendendo mais sobre front-end e descontinuei quando comecei a estudar back-end. No futuro pretendo retomar o desenvolvimento.
